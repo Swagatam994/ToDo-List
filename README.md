@@ -15,10 +15,10 @@ A simple and interactive To-Do List application built using HTML, CSS, and JavaS
 
 
 🛠️ Tech Stack
+
 HTML5
 
 CSS3
 
-JavaScript (ES6)
+JavaScript 
 
-LocalStorage API
