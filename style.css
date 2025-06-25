@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.todoapp {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #410445, #2a10d3);
+
+}
+
+.container {
+
+    width: 100%;
+    max-width: 540px;
+    background-color: #fff;
+    margin: 100px, auto, 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    justify-self: center;
+    align-self: center;
+
+
+}
+
+.container h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: orangered;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.container h2 img {
+    width: 70px;
+    margin-left: 20px;
+}
+
+.innerbox {
+    margin: 1.5rem;
+    margin-top: 1rem;
+}
+
+.innerbox input {
+    height: 5.4vh;
+    width: 55vh;
+    background-color: lightgray;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 17px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#submit {
+
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+
+}
+
+ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li::before {
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(images.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
+
+li p {
+    font-family: 'Courier New', monospace;
+
+
+}
+
+.checked {
+    color: #555;
+    text-decoration: line-through;
+
+}
+
+.checked::before {
+    background-image: url(c.jpg);
+
+}
+
+span {
+    font-size: 28px;
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #555;
+    line-height: 38px;
+    text-align: center;
+
+}
+
+span:hover {
+    background-color: #edeef0;
+}
